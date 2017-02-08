@@ -1,7 +1,7 @@
-### Constituent Resources
+## Constituent Resources
 ***
 	POST constituent/:access_token
-
+	
 ***
 
 #### Create a constituent
@@ -104,24 +104,24 @@ Example Request with multiple tags
  
 **JSON Request Body**
 
-```
+``` json
 {
-	"name": "Steve Bob",
-	"firstname": "Steve",
-	"lastname": "Bob",
-	"address": "555 Fake St.",
-	"address_two": "APT 24",
-	"city": "Seattle",
-	"state": "WA",
-	"zipcode": "98045",
-	"email": "steve@steve.com",
-	"home_phone": "1-555-555-5555",
-	"msisdn": "1-555-555-5555",
-	"employer": "Steve's Company",
-	"metadata": {
-		"source": "facebook",
-		"emailOptInStatus": "I"
-	},
+  "name": "Steve Bob",
+  "firstname": "Steve",
+  "lastname": "Bob",
+  "address": "555 Fake St.",
+  "address_two": "APT 24",
+  "city": "Seattle",
+  "state": "WA",
+  "zipcode": "98045",
+  "email": "steve@steve.com",
+  "home_phone": "1-555-555-5555",
+  "msisdn": "1-555-555-5555",
+  "employer": "Steve's Company",
+  "metadata":{
+    "source": "facebook",
+    "emailOptInStatus": "I"
+   },
 	"tags": ["amazingpeople2016", "halflife3?"]
 }
 ```

@@ -29,7 +29,8 @@ Routes with the `Authorization` header required authorization and an active sess
 GET / HTTP/1.1
 Host: sync.revmsg.net
 Connection: close
-
+Accept: application/vnd.sync.v2+json
+Content-Type: application/json
 ```
 
 ### Base Endpoint
@@ -46,9 +47,11 @@ https://sync.revmsg.net
 https://revere-sync-v2-stage.herokuapp.com
 ```
 
+## Functions
+Sync runs triggers based on **tags** and the **access token** which is based on a per client basis. Triggers are able to activate various actions and sync data to third-party services such as [Revere Calling](https://revolutionmessaging.com/revere/calling), [Revere Mobile](https://revolutionmessaging.com/revere/mobile), [BSD](https://www.bluestatedigital.com/) and more. Sync is the `ifttt.com` of the progressive movment. Inquire about what is possible with sync by contacting [Revolution Messaging](https://revolutionmessaging.com).
+
 ## Endpoints
 
 #### Constituent Resources
 
-- **[<code>POST</code>constituent/:access_token](https://github.com/revolution-messaging/revere-sync-api/endpoints/constituents/POST_Constituent.md)**
-
+- **[<code>POST</code>constituent/:access_token](https://github.com/revolution-messaging/revere-sync-api/blob/master/endpoints/constituents/POST_Constituent.md)**
