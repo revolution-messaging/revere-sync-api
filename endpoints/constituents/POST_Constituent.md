@@ -69,18 +69,18 @@ Example Request
 
 ``` json
 {
-	"name":"Steve Bob"
-	"firstname":"Steve"
-	"lastname":"Bob"
-	"address":"555 Fake St."
-	"address_two":"APT 24"
-	"city":"Seattle"
-	"state":"WA"
-	"zipcode":"98045"
-	"email":"steve@steve.com"
-	"home_phone":"1-555-555-5555"
-	"msisdn":"1-555-555-5555"
-	"employer":"Steve's Company"
+	"name":"Steve Bob",
+	"firstname":"Steve",
+	"lastname":"Bob",
+	"address":"555 Fake St.",
+	"address_two":"APT 24",
+	"city":"Seattle",
+	"state":"WA",
+	"zipcode":"98045",
+	"email":"steve@steve.com",
+	"home_phone":"1-555-555-5555",
+	"msisdn":"1-555-555-5555",
+	"employer":"Steve's Company",
 	"metadata": {
 		"source":"facebook",
 		"emailOptInStatus":"I"
@@ -94,9 +94,9 @@ Example Request
 
 ``` json
 {
-  error:false,
-  message:"Contact accepted.",
-  id:"57d723cbd9dc8cdc5ad00191"
+  "error":false,
+  "message":"Contact accepted.",
+  "id":"57d723cbd9dc8cdc5ad00191"
 }
 ```
 
@@ -131,8 +131,8 @@ Example Request with multiple tags
 
 ``` json
 {
-  error:false,
-  message:"Contact accepted.",
-  id:"57d723cbd9dc8cdc5ad00191"
+  "error":false,
+  "message":"Contact accepted.",
+  "id":"57d723cbd9dc8cdc5ad00191"
 }
 ```
