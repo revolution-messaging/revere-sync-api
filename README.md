@@ -1,3 +1,5 @@
+Please see https://sync-developers.reverehq.com instead for the latest API documentation
+
 # Revere Sync API
 
 ### Public API V2
